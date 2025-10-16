@@ -203,9 +203,15 @@ iframe {
     background-color: lime;
   }
 
+  .bold {
+    font-weight: bold;
+  }
   .big {
     font-size: 4rem;
     font-weight: bold;
+  }
+  .medium {
+    font-size: 2.5rem;
   }
 
   .footnote {
@@ -245,7 +251,6 @@ iframe {
     bottom: 0;
     margin-bottom: 0;
   }
-
 }
 
 
