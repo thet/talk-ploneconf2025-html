@@ -6,7 +6,9 @@
 <!-- .slide: data-background="Cyan" -->
 
 <!-- .slide: data-background="Blue" -->
-# Less JavaScript: HTML alternatives to JavaScript problems
+# Less JavaScript
+
+HTML alternatives to JavaScript problems
 
 <br>
 <a href="https://thet.github.io/talk-ploneconf2025-html">
