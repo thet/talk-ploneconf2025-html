@@ -201,14 +201,14 @@ audio / video with WaveSurfer.js
 <!-- .slide: data-background="Cyan" -->
 ```html [1-13|2,9|3]
 <details
-    name="info-a"
+    name="info"
     open
 >
   <summary>Summary A</summary>
   <p>Text A</p>
 </details>
 <details
-    name="info-b"
+    name="info"
 >
   <summary>Summary B</summary>
   <p>Text B</p>
@@ -240,7 +240,7 @@ audio / video with WaveSurfer.js
 - Plone toolbar<!-- .element: class="fragment" -->
 - Form tabbing<!-- .element: class="fragment" -->
 
-- 😐 Limited styling options<br><small>open/close transition</small><!-- .element: class="fragment" -->
+- <span>😐 Limited styling options<br><small>open/close transition</small></span><!-- .element: class="fragment" -->
 
 
 <!-- .slide: data-background="Cyan" -->
@@ -513,6 +513,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/::scroll-marker
 ### Demos
 
 https://topos.orf.at/marina-abramovic-albertina-modern100
+
+http://localhost:4000/page_m_lead_text.html
+
 http://localhost:5173/
 
 
@@ -588,6 +591,7 @@ https://drafts.csswg.org/css-grid-3/#masonry-switch
 ## future: maps
 
 https://maps4html.org/
+
 
 
 
