@@ -508,7 +508,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/::scroll-marker
 
 
 <!-- .slide: data-background="Blue" -->
-## Demos
+### Demos
 
 https://topos.orf.at/marina-abramovic-albertina-modern100
 http://localhost:5173/
@@ -516,14 +516,76 @@ http://localhost:5173/
 
 
 
+<!-- .slide: data-background="Purple" -->
+## form validation
+
+```html
+<form>
+  <input name="title"
+         required
+  />
+</form>
+
+<style>
+  input:invalid {
+    border: 2px solid red;
+  }
+  input:valid {
+    border: 2px solid green;
+  }
+</style>
+```
+
+<form>
+  <input name="title"
+         required
+         class="medium"
+  />
+</form>
+
+<style>
+  input:invalid {
+    border: 4px solid red;
+  }
+  input:valid {
+    border: 4px solid green;
+  }
+</style>
+
+
+<!-- .slide: data-background="Purple" -->
+https://patternslib.com/demos/validation
+
+- Uses Web API form validation
+- CSS :invalid/:valid selectors
+- Adds more validation rules (dependencies on other fields, checkboxes, ...)
+- Custom error messages
 
 
 
 
+<!-- .slide: data-background="Purple" -->
+## Dialogs
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog
 
 
 
-### CSS Scroll Snap
+
+<!-- .slide: data-background="Purple" -->
+## future: masonry
+
+https://www.smashingmagazine.com/native-css-masonry-layout-css-grid/
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
+https://drafts.csswg.org/css-grid-3/#masonry-switch
+
+
+
+
+<!-- .slide: data-background="Purple" -->
+## future: maps
+
+https://maps4html.org/
 
 
 
